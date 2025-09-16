@@ -2,5 +2,8 @@ $home-bg: $white;
 
 .home-section{
         @include stleSection(150px, 150px, $home-bg);
-
+        background-image: url(assets/home.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top center;
 }

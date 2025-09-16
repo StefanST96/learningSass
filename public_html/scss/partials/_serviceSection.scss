@@ -1,3 +1,6 @@
 .service-section{
-    padding: 30px 0;
+    //padding: 30px 0;
+    
+     @include stleSection(30px, 30px, transparent);
+
 }

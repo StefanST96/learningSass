@@ -1,4 +1,8 @@
+$about-bg: $white;
+
 .about-section{
-    padding: 30px 0;
-    background-color: $white;
+    //padding: 30px 0;
+   // background-color: $white;
+    
+    @include stleSection(30px, 30px, $about-bg);
 }
